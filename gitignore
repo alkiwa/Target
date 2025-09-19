@@ -1,0 +1,31 @@
+# --- Go (бинарники, артефакты тестов/сборки) ????
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+build/
+dist/
+coverage/
+*.coverprofile
+
+# --- Модули/Workspace
+# ОСТАВЬ в репо: go.mod, go.sum
+# Если go.work только для локальной многомодульной разработки — игнорируй:
+go.work
+go.work.sum
+
+# --- macOS
+.DS_Store
+
+# --- Редакторы/IDE
+.vscode/
+.idea/
+*.iml
+
+# --- Секреты ????
+.env
+.env.*
